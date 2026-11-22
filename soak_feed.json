@@ -1,5 +1,5 @@
 {
-  "feed": "TESTARI soak feed — LLM Cage, aggregates only",
+  "feed": "TESTARI soak feed - LLM Cage, aggregates only",
   "source": "GateRun ledger, cage/1, app 6af4f91500f74ce4b3d73f71. Counts, dates and sequence integrity only. No reply, context, prompt or message text crosses this boundary.",
   "engine": {
     "gate_version": "cage/1",
@@ -43,7 +43,7 @@
     "clean_statements_total": 20,
     "ref": "Doctrine D11"
   },
-  "checked_at": "2026-11-22T17:17:41.462Z",
-  "updated_at": "2026-11-22T17:17:41.462Z",
+  "checked_at": "2026-11-22T17:18:03.448Z",
+  "updated_at": "2026-11-22T17:18:03.448Z",
   "generated_by": "soakFeedPublish"
 }
