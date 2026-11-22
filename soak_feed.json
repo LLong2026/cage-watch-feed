@@ -6,11 +6,11 @@
     "extractor_version": "grammar/1"
   },
   "window": {
-    "starts": "2026-11-11",
+    "starts": "2026-11-12",
     "closes": "2026-12-11",
     "days_total": 30,
-    "day_index": 12,
-    "convention": "day 1 = the start date; day_index is calendar days since start, clamped to the window"
+    "day_index": 11,
+    "convention": "day 1 = 2026-11-12, matching the instrument ledger (T0 = 2026-11-11); day 30 = 2026-12-11"
   },
   "counts": {
     "rows_total": 596,
@@ -43,7 +43,7 @@
     "clean_statements_total": 20,
     "ref": "Doctrine D11"
   },
-  "checked_at": "2026-11-22T17:18:06.149Z",
-  "updated_at": "2026-11-22T17:18:03.448Z",
+  "checked_at": "2026-11-22T17:25:49.828Z",
+  "updated_at": "2026-11-22T17:25:49.828Z",
   "generated_by": "soakFeedPublish"
 }
