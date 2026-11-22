@@ -1,0 +1,49 @@
+{
+  "feed": "TESTARI soak feed — LLM Cage, aggregates only",
+  "source": "GateRun ledger, cage/1, app 6af4f91500f74ce4b3d73f71. Counts, dates and sequence integrity only. No reply, context, prompt or message text crosses this boundary.",
+  "engine": {
+    "gate_version": "cage/1",
+    "extractor_version": "grammar/1"
+  },
+  "window": {
+    "starts": "2026-11-11",
+    "closes": "2026-12-11",
+    "days_total": 30,
+    "day_index": 12,
+    "convention": "day 1 = the start date; day_index is calendar days since start, clamped to the window"
+  },
+  "counts": {
+    "rows_total": 596,
+    "pass": 293,
+    "flagged": 57,
+    "blocked": 246,
+    "not_checked": 0,
+    "other": 0
+  },
+  "integrity": {
+    "newest_seq": 596,
+    "distinct_seqs": 596,
+    "duplicate_seqs": [],
+    "missing_seqs": [],
+    "missing_seq_count": 0,
+    "note": "Sequence integrity only. A duplicate seq means the chain forked; it is disclosed here, never repaired here."
+  },
+  "activity": {
+    "oldest_row_at": "2026-11-12T02:06:48.988000",
+    "newest_row_at": "2026-11-22T15:28:30.731000"
+  },
+  "accuracy": {
+    "note": "The soak measures stability, not correctness. This gate does not eliminate hallucination and no count here should be read as an accuracy claim.",
+    "measured_on": "2026-11-17",
+    "planted_faults_caught": 3,
+    "planted_faults_total": 24,
+    "held_out_caught": 12,
+    "held_out_total": 28,
+    "clean_statements_falsely_flagged": 12,
+    "clean_statements_total": 20,
+    "ref": "Doctrine D11"
+  },
+  "checked_at": "2026-11-22T17:17:37.393Z",
+  "updated_at": "2026-11-22T17:17:37.393Z",
+  "generated_by": "soakFeedPublish"
+}
