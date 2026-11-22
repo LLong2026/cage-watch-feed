@@ -35,3 +35,33 @@ The earlier figure of 78 was measured 2026-11-03 against a smaller ledger and
 counted journal rows rather than the full pre-escrow set. 169 supersedes it.
 
 Public by design, same as the feed.
+
+## soak_feed.json
+
+Daily aggregate for the Testari soak instrument (the LLM Cage), refreshed at 06:00 CT by
+`soakFeedPublish`. It answers one question: is the soak still running, and is its ledger
+still sound.
+
+It carries counts, the day index inside the 30-day window (closing 2026-12-11), the newest
+row time, and sequence integrity. It carries no reply text, no context, no prompt and no
+message content, and no personal data. The generator builds its payload from an allowlist
+and refuses to publish if a forbidden field name appears, if any string exceeds 240
+characters, or if anything resembling an email, phone number or other personal identifier
+is present. That refusal is code, not policy, and it was tested against six bad payloads
+including a nested leak.
+
+Two timestamps, deliberately separate:
+
+- `checked_at` - when the generator last ran.
+- `updated_at` - when the published content last actually changed.
+
+A quiet day moves `checked_at` and leaves `updated_at` alone, so freshness is never
+mistaken for new results.
+
+`accuracy` carries the measured figure rather than a claim: 3 of 24 planted faults caught
+and 12 of 20 clean statements falsely flagged, measured 2026-11-17, recorded as Doctrine
+D11. The soak measures stability, not correctness, and this gate does not eliminate
+hallucination.
+
+This file is the only thing the daily job writes. `cage_watch_feed.json` is curated and is
+never touched by it.
