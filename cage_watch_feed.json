@@ -1,10 +1,10 @@
 {
  "feed": "CONTAINMENT WATCH live receipts feed — SQUIRL OS containment program",
- "source": "four-horsemen-public repo (append-only, forward-only). tests_roster mirrors TROPHY_ROSTER.csv; regenerated 2026-11-18 from the roster of record.",
+ "source": "four-horsemen-public repo (append-only, forward-only). tests_roster is the roster of record; regenerated 2026-11-18.",
  "updated_at": "2026-11-18T23:20:00Z",
  "totals": {
   "recorded_cycles": 62,
-  "recorded_cycles_ref": "TROPHY_ROSTER.csv",
+  "recorded_cycles_ref": "tests_roster (62 rows, this feed)",
   "falsifiers_held": "109/109",
   "falsifiers_ref": "DOI 10.5281/zenodo.23430655",
   "escapes": 0,
@@ -860,10 +860,6 @@
    {
     "label": "four-horsemen evidence repository (append-only)",
     "url": "https://github.com/LLong2026/four-horsemen-public"
-   },
-   {
-    "label": "TROPHY_ROSTER.csv - the full test index",
-    "url": "https://raw.githubusercontent.com/LLong2026/four-horsemen-public/main/TROPHY_ROSTER.csv"
    }
   ]
  }
