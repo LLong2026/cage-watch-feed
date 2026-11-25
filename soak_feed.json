@@ -9,20 +9,20 @@
     "starts": "2026-11-12",
     "closes": "2026-12-11",
     "days_total": 30,
-    "day_index": 12,
+    "day_index": 14,
     "convention": "day 1 = 2026-11-12, matching the instrument ledger (T0 = 2026-11-11); day 30 = 2026-12-11"
   },
   "counts": {
-    "rows_total": 596,
-    "pass": 293,
-    "flagged": 57,
-    "blocked": 246,
+    "rows_total": 688,
+    "pass": 337,
+    "flagged": 65,
+    "blocked": 286,
     "not_checked": 0,
     "other": 0
   },
   "integrity": {
-    "newest_seq": 596,
-    "distinct_seqs": 596,
+    "newest_seq": 688,
+    "distinct_seqs": 688,
     "duplicate_seqs": [],
     "missing_seqs": [],
     "missing_seq_count": 0,
@@ -30,7 +30,7 @@
   },
   "activity": {
     "oldest_row_at": "2026-11-12T02:06:48.988000",
-    "newest_row_at": "2026-11-22T15:28:30.731000"
+    "newest_row_at": "2026-11-24T13:18:41.166000"
   },
   "accuracy": {
     "note": "The soak measures stability, not correctness. This gate does not eliminate hallucination and no count here should be read as an accuracy claim.",
@@ -43,7 +43,7 @@
     "clean_statements_total": 20,
     "ref": "Doctrine D11"
   },
-  "checked_at": "2026-11-23T12:03:40.979Z",
-  "updated_at": "2026-11-23T12:03:40.979Z",
+  "checked_at": "2026-11-25T12:04:48.362Z",
+  "updated_at": "2026-11-25T12:04:48.362Z",
   "generated_by": "soakFeedPublish"
 }
