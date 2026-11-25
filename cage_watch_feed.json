@@ -850,16 +850,16 @@
     "url": "https://containment-watch.base44.app"
    },
    {
-    "label": "Transparency Vault - receipts-first public ledger",
-    "url": "https://squirl-vault-core.base44.app"
+    "label": "Transparency ledger - receipts-first public record (closed Oct 2026, 63 entries)",
+    "url": "https://showcase.squirlos-technologies.com/ledger/"
    },
    {
     "label": "CONTAINMENT WATCH live feed (this dashboard is driven by it)",
-    "url": "https://raw.githubusercontent.com/LLong2026/four-horsemen-public/main/cage_watch_feed.json"
+    "url": "https://raw.githubusercontent.com/LLong2026/cage-watch-feed/main/cage_watch_feed.json"
    },
    {
-    "label": "four-horsemen evidence repository (append-only)",
-    "url": "https://github.com/LLong2026/four-horsemen-public"
+    "label": "cage-watch feed repository (public, append-only)",
+    "url": "https://github.com/LLong2026/cage-watch-feed"
    }
   ]
  }
